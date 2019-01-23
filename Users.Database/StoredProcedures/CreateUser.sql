@@ -6,10 +6,12 @@
 	@Password VARCHAR(50)) 
 AS
 BEGIN
+	DECLARE @Result INT = @UserId
 	IF(ISNULL(@UserId, 0) = 0)
 	BEGIN
-		INSERT INTO Users ([UserId], [Nombre], [Apellido], [Email], [Password])
-		VALUES (@UserId, @Nombre, @Apellido, @Email, @Password) 
+		INSERT INTO Users ([Nombre], [Apellido], [Email], [Password])
+		VALUES (@Nombre, @Apellido, @Email, @Password) 
+		SET @Result = SCOPE_IDENTITY()
 	END
 	ELSE
 	BEGIN
@@ -20,4 +22,5 @@ BEGIN
 			[Password] = @Password
 		WHERE [UserId] = @UserId
 	END
+	SELECT @UserId
 END

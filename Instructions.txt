@@ -13,5 +13,13 @@ Ejecutar app
 	Compilar el proyecto RestApi y correrlo en modo debug.
 	ejecutar la siguiente URL http://localhost:49180/api/Cotizacion/Get/real y las otras que quieran ser testeadas
 	ejecutar la siguiente URL http://localhost:49180/api/Users/GetById/1 y las otras que quieran ser testeadas
-	
+
+	Para los requests POST usar una tool como Postman o a fin:
+
+	CreateUser y UpdateUser:
+	http://localhost:49180/api/Users/Create/
+	Se manda con userId para update y sin este atributo para create
+
+	DeleteUser:
+	http://localhost:49180/api/Users/Delete?userId=4	
 
