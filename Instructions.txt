@@ -1,0 +1,17 @@
+Consideraciones:
+	La aplicacion Api REST esta pensada para correr debuggueando desde el Visual Studio 2015.
+
+Despliegue de la DB
+	Para crear todo lo competente a la base de datos ir a la carpeta y ejecutar el script 1_SQL_ScriptStructureAndData.sql
+	Se puede ejecutar el script mas de una vez. Mas alla de que pueda mostrar algun error de objeto existente, no deja a la base inestable.
+
+Config app
+	Dentro del Web.config de la aplicacion REST hay una entrada de connection string en la cual van a tener que cambiar el nombre del servidor (reemplazar el localhost en caso de que amerite).
+	
+Ejecutar app
+	Abrir la solucion RestApiTest.sln con VS 2015
+	Compilar el proyecto RestApi y correrlo en modo debug.
+	ejecutar la siguiente URL http://localhost:49180/api/Cotizacion/Get/real y las otras que quieran ser testeadas
+	ejecutar la siguiente URL http://localhost:49180/api/Users/GetById/1 y las otras que quieran ser testeadas
+	
+

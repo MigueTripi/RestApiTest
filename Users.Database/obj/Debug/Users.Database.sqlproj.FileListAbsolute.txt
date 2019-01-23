@@ -1,0 +1,9 @@
+C:\Users\tripi\Documents\Visual Studio 2015\Projects\RestApiTest\Users.Database\bin\Debug\Users.Database.dacpac
+C:\Users\tripi\Documents\Visual Studio 2015\Projects\RestApiTest\Users.Database\bin\Debug\Users.Database.dll
+C:\Users\tripi\Documents\Visual Studio 2015\Projects\RestApiTest\Users.Database\bin\Debug\Users.Database.pdb
+C:\Users\tripi\Documents\Visual Studio 2015\Projects\RestApiTest\Users.Database\obj\Debug\Model.xml
+C:\Users\tripi\Documents\Visual Studio 2015\Projects\RestApiTest\Users.Database\obj\Debug\refactor.xml
+C:\Users\tripi\Documents\Visual Studio 2015\Projects\RestApiTest\Users.Database\obj\Debug\postdeploy.sql
+C:\Users\tripi\Documents\Visual Studio 2015\Projects\RestApiTest\Users.Database\obj\Debug\predeploy.sql
+C:\Users\tripi\Documents\Visual Studio 2015\Projects\RestApiTest\Users.Database\obj\Debug\Users.Database.dll
+C:\Users\tripi\Documents\Visual Studio 2015\Projects\RestApiTest\Users.Database\obj\Debug\Users.Database.pdb
